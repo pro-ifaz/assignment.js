@@ -5,11 +5,12 @@ function feetToMile (feet){
     return getMile;
 }
 
-// function is between the comments
-
-
 // calculation from feet to mile.
 
-var mileResult = feetToMile(12);
+var mileResult = feetToMile(52800);
 
-console.log(mileResult);
+// reducing the extra digits after decimal of mile result 
+
+var result = mileResult.toFixed(2);
+
+console.log(result);
