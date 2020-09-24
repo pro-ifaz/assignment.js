@@ -5,7 +5,7 @@ function feetToMile (feet){
     return getMile;
 }
 
-// function is between the comment
+// function is between the comments
 
 
 // calculation from feet to mile.
