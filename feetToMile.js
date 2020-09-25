@@ -4,7 +4,7 @@ function feetToMile(feet) {
 
     var getMile = feet * 0.000189394;  // 1 feet = 0.000189394 mile [so its been multiplied]
 
-    // using an if case to prevent negative value insertion. Please Let me know if this ok. I'm a newbie. 
+    // using an if case to prevent negative value insertion. Please Let me know if this ok.  
 
     if (feet < -1) {
         getMile = `negative values aren't allowed. calculation cancelled.`;
