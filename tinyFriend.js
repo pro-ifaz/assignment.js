@@ -1,26 +1,21 @@
-/* function woodCalculator (chair, table, bed) {
-    var totalChair = chair * 1;
-    var totalTable = table * 3;
-    var totalBed   = bed   * 5;
+function tinyFriend(names) {
 
-    var totalWood = totalChair + totalTable + totalBed;
+    var tinyName = names[0];
 
-    return totalWood;
-} 
+    for (var i = 0; i < names.length; i++) {
 
-var result = woodCalculator (2, 3, 4);
+        var currentName = names[i];
+
+        if (currentName.length < tinyName.length) {
+            tinyName = currentName;
+        }
+
+    }
+    return tinyName;
+
+}
+
+var result = tinyFriend([`abir`, `kabir`, `sabbir`, `munabir`, `bir`]);
 
 console.log(result);
 
-
-
-**/
-
-var i = 5;
-var j = 6;
-var k = 7;
-
-var total = i + j;
-total2= total + k;
-
-console.log(total2);
